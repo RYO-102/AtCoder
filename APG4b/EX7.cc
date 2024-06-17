@@ -1,13 +1,14 @@
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
-  // å¤‰æ•°a,b,cã«trueã¾ãŸã¯falseã‚’ä»£å…¥ã—ã¦AtCoderã¨å‡ºåŠ›ã•ã‚Œã‚‹ã‚ˆã†ã«ã™ã‚‹ã€‚
+  // •Ï”a,b,c‚Étrue‚Ü‚½‚Ífalse‚ğ‘ã“ü‚µ‚ÄAtCoder‚Æo—Í‚³‚ê‚é‚æ‚¤‚É‚·‚éB
   bool a = true;
   bool b = false;
   bool c = true;
 
-  // ã“ã“ã‹ã‚‰å…ˆã¯å¤‰æ›´ã—ãªã„ã“ã¨
+  // ‚±‚±‚©‚çæ‚Í•ÏX‚µ‚È‚¢‚±‚Æ
 
   if (a) {
     cout << "At";

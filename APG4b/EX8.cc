@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -8,12 +9,12 @@ int main() {
   int price, N;
   string text;
 
-  // 繝代ち繝ｼ繝ｳ1
+  // パターン1
   if (p == 1) {
     cin >> price >> N;
   }
 
-  // 繝代ち繝ｼ繝ｳ2
+  // パターン2
   if (p == 2) {
     cin >> text >> price >> N;
     cout << text << "!" << endl;

@@ -1,8 +1,9 @@
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-    cout << "ã„ã¤ã‚‚" << 2525 << endl;
-    cout << "AtCoderãã‚“" << endl;
+    cout << "‚¢‚Â‚à" << 2525 << endl;
+    cout << "AtCoder‚­‚ñ" << endl;
 }

@@ -1,15 +1,16 @@
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
   int x, a, b;
   cin >> x >> a >> b;
 
-  // 1.ã®å‡ºåŠ›
+  // 1.‚Ìo—Í
   x++;
   cout << x << endl;
 
-  // ã“ã“ã«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’è¿½è¨˜
+  // ‚±‚±‚©‚çƒvƒƒOƒ‰ƒ€‚ğ’Ç‹L
   x *= (a + b);
   cout << x << endl;
 

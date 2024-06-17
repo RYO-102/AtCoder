@@ -8,7 +8,7 @@ int main() {
   string S;
   cin >> S;
 
-  // ã“ã“ã«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’è¿½è¨˜
+  // ‚±‚±‚©‚çƒvƒƒOƒ‰ƒ€‚ğ’Ç‹L
   int count = 0;
   int sum = 1;
 
