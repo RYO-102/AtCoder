@@ -1,4 +1,4 @@
-# AtCoder
+# AtCoder Solutions and Algorithm Templates
 This repository is memorandum of my # AtCoder Solutions and Algorithm Templates
 
 This repository contains my solutions to AtCoder problems and useful algorithm templates.
