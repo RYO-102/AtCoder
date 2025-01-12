@@ -1,0 +1,11 @@
+	//warning!! declaration and initialize "ok" & "ng"!
+	ll ok = , ng = ;
+	while(abs(ok - ng) > 1){
+		ll mid = (ok + ng) / 2;
+
+		//processing
+		
+
+		if(/*condition*/) ok = mid;
+		else ng = mid;
+	}

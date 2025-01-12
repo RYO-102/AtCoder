@@ -3,7 +3,7 @@
 		for(ll i = 0; i < N; i++){
 			if(bit & (1 << i)){
 				//processing
-
+				
 			}
 		}
 	}
