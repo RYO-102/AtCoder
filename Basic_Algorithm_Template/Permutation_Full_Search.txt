@@ -1,3 +1,0 @@
-	do{
-
-	}while(next_permutation(all(/*name*/)));
