@@ -7,7 +7,6 @@ https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_4_B&lang=ja
 #include <vector>
 #include <algorithm>
 
-
 using namespace std;
 using ll = long long;
 using vll = vector<ll>;
