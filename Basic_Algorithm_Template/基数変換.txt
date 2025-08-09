@@ -1,0 +1,35 @@
+//n進数(string)から10進数(long long)へ
+ll to_decimal(const string& str, int n){
+    ll decimal_value = 0;
+
+    for(char c : str){
+        ll digit;
+
+        if('0' <= c && c <= '9') digit = c - '0';
+        else digit = c - 'a' + 10;
+
+        decimal_value = decimal_value * n + digit;
+    }
+
+    return decimal_value;
+}
+
+//10進数(long long)からm進数(string)へ
+string from_decimal(ll decimal_value, int m){
+    if(decimal_value == 0) return "0";
+
+    const string chars = "0123456789abcdefghijklmnopqrstuvwxyz";
+    string res = "";
+
+    while(decimal_value > 0){
+        res = chars[decimal_value % m] + res;
+        decimal_value /= m;
+    }
+
+    return res;
+}
+
+//n進数(string)からm進数(string)へ
+string convert_base(const string& str, int n, int m){
+    return from_decimal(to_decimal(str, n), m);
+}
