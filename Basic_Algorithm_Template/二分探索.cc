@@ -1,5 +1,5 @@
 /*
-Binary_Search
+“ñ•ª’Tõ
 https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_4_B&lang=ja
 */
 

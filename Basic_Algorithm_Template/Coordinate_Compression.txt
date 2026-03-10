@@ -1,0 +1,11 @@
+vll Coordinate_Compression(vll vec){
+	map<ll, ll> rank;
+	ll id = 0;
+
+	rep(i, 0, N) rank[vec.at(i)] = 0;
+	for(auto& p : rank) p.second = ++id;
+
+	rep(i, 0, N) vec.at(i) = rank[vec.at(i)];
+
+	return vec;
+}

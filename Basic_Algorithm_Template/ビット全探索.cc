@@ -1,5 +1,5 @@
 /*
-Bit_Full_Search
+ビット全探索
 https://qiita.com/e869120/items/25cb52ba47be0fd418d6#3-1-bit-%E5%85%A8%E6%8E%A2%E7%B4%A2
 */
 
