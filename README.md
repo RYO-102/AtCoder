@@ -1,21 +1,27 @@
-# AtCoder Solutions and Algorithm Templates
-This repository is memorandum of my # AtCoder Solutions and Algorithm Templates
+# AtCoder Solutions & Algorithm Templates
 
-This repository contains my solutions to AtCoder problems and useful algorithm templates.
+AtCoderの過去問解答および、競技プログラミングにおける汎用アルゴリズムのテンプレートを管理するリポジトリです。
 
-## Summary
+## 概要
 
-This project showcases programs from past contests, focusing mainly on problems rated C or higher in the AtCoder Beginner Contest (ABC). Additionally, it includes algorithm templates I have learned during my programming practice.
+本リポジトリは、競技プログラミングプラットフォーム「AtCoder」での学習記録を目的としています。主にC++を使用し、基礎的なアルゴリズムから典型的な問題パターンまでを網羅することを目指しています。
 
-Feel free to use this repository as a resource for your studies or to tackle similar problems.
+## ディレクトリ構成
 
-## How to Use
+リポジトリ内の主要な構成は以下の通りです。
 
-- Files named `ABC_***` contain solutions to ABC problems. They are categorized by contest and problem level.
-- The file named `Basic_Algorithm_Template` includes various algorithm snippets that can be directly reused in your programs. Copying and pasting are encouraged!
+* **ABC/**: AtCoder Beginner Contest の解答。コンテストごとにディレクトリを分割して管理。
+* **ATC/**: AtCoder Typical Contest（典型的なアルゴリズムの練習）の解答。
+* **競プロ典型90問/**: 「競プロ典型90問」の演習プログラム。
+* **競技プログラミングの鉄則/**: 書籍『競技プログラミングの鉄則』の例題・演習問題の解答。
+* **アルゴリズムテンプレート/**: 頻出するデータ構造やアルゴリズムの再利用可能なスニペット群。
 
-## Updates
+## 開発環境・言語
 
-I aim to update this repository regularly with new solutions and improvements. Please visit frequently to track my progress and explore new content.
+* **言語:** C++ (GCC)
+* **エディタ:** VS Code
+* **ビルド管理:** コンテスト環境に準拠
 
-[Check out my AtCoder profile here!](https://atcoder.jp/users/RYO102)
+## リンク
+
+* [AtCoder Profile](https://atcoder.jp/users/RYO102)
