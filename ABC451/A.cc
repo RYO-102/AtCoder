@@ -12,15 +12,12 @@ using ll = long long;
 const ll INF = 1LL << 60;
 
 void solve() {
-	ll N;
-	cin >> N;
-	vector<ll> P(N), A(N);
-	rep(i, 0, N) cin >> P[i] >> A[i];
+	//ABC451_A
+	string S;
+	cin >> S;
 
-	vector<vector<ll>> dp(N + 1, vector<ll>(N + 1, -1));
-	
-
-	
+	if(S.length() % 5 == 0) cout << "Yes\n";
+	else cout << "No\n";
 }
 
 int main() {

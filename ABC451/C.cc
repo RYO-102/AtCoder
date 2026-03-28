@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <algorithm>
+#include <queue>
 
 using namespace std;
 using ll = long long;
@@ -12,15 +13,26 @@ using ll = long long;
 const ll INF = 1LL << 60;
 
 void solve() {
-	ll N;
-	cin >> N;
-	vector<ll> P(N), A(N);
-	rep(i, 0, N) cin >> P[i] >> A[i];
-
-	vector<vector<ll>> dp(N + 1, vector<ll>(N + 1, -1));
+	//ABC451_C
+	ll Q;
+	cin >> Q;
 	
+	priority_queue<ll, vector<ll>, greater<ll>> pq;
 
-	
+	while(Q--){
+		ll query, h;
+		cin >> query >> h;
+
+		if(query == 1){
+			pq.push(h);
+		}else{
+			while(!pq.empty() && pq.top() <= h){
+				pq.pop();
+			}
+		}
+
+		cout << pq.size() << "\n";
+	}
 }
 
 int main() {

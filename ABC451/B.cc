@@ -12,15 +12,19 @@ using ll = long long;
 const ll INF = 1LL << 60;
 
 void solve() {
-	ll N;
-	cin >> N;
-	vector<ll> P(N), A(N);
-	rep(i, 0, N) cin >> P[i] >> A[i];
+	//ABC451_B
+	ll N, M;
+	cin >> N >> M;
+	vector<ll> A(N), B(N);
+	rep(i, 0, N) cin >> A[i] >> B[i];
 
-	vector<vector<ll>> dp(N + 1, vector<ll>(N + 1, -1));
-	
+	vector<ll> next_num(M, 0), pre_num(M, 0);
+	rep(i, 0, N){
+		next_num[B[i] - 1]++;
+		pre_num[A[i] - 1]++;
+	}
 
-	
+	rep(i, 0, M) cout << next_num[i] - pre_num[i] << "\n";
 }
 
 int main() {
